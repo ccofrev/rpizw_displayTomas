@@ -66,7 +66,7 @@ def main():
         # Crear el mensaje como un diccionario
         message = {
             "id_dispositivo": "573350de9160c36c",
-            "message": category + ": " + headline,  # Añadir la categoría
+            "message": "[" + category.upper() + "] " + headline,  # Convertir la categoría a mayúsculas
             "period": 15  # Número de repeticiones
         }
 
